@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { getLocations, getSpecificLocation } from '../redux/location';
-import logo from '../weather.png';
+import logo from '../autoimmune-disease.png';
 import '../App.css';
 
 const MyNavbar = () => {
@@ -35,7 +35,7 @@ const MyNavbar = () => {
             height="50"
             alt="Open weather cloud"
           />
-          <h3 className="navbar-header">Open Weather</h3>
+          <h3 className="navbar-header">COVID-19 NEWS</h3>
         </Navbar.Brand>
         <Form className="d-flex" style={{ width: '70%' }} onSubmit={(e) => getSearchResult(e)}>
           <Form.Control

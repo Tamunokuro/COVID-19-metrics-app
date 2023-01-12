@@ -53,15 +53,11 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 COVID-19 News <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **COVID-19 News** is a single page react application that shows the latest COVID-19 news in all countries around the world. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -98,8 +94,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -116,6 +110,7 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
+- Run `git clone git@github.com:Tamunokuro/Openweather-app.git`
 
 <!--
 Example commands:
@@ -180,8 +175,6 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author**
 

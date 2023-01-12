@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { getLocations, getSpecificLocation } from '../redux/location';
+import Utilities from './Utility';
 import logo from '../autoimmune-disease.png';
 import '../App.css';
 
@@ -26,29 +27,32 @@ const MyNavbar = () => {
   };
 
   return (
-    <Navbar className="nav" style={{ display: 'flex', flexWrap: 'wrap' }}>
-      <Container className="navbar">
-        <Navbar.Brand style={{ display: 'flex', gap: '10px' }}>
-          <img
-            src={logo}
-            width="50"
-            height="50"
-            alt="Open weather cloud"
-          />
-          <h3 className="navbar-header">COVID-19 NEWS</h3>
-        </Navbar.Brand>
-        <Form className="d-flex" style={{ width: '70%' }} onSubmit={(e) => getSearchResult(e)}>
-          <Form.Control
-            type="search"
-            placeholder="ex. London"
-            className="me-2"
-            aria-label="Search"
-            onChange={(e) => onChange(e)}
-          />
-          <Button variant="primary">Search</Button>
-        </Form>
-      </Container>
-    </Navbar>
+    <>
+      <Utilities />
+      <Navbar className="nav" style={{ display: 'flex', flexWrap: 'wrap' }}>
+        <Container className="navbar">
+          <Navbar.Brand style={{ display: 'flex', gap: '10px' }}>
+            <img
+              src={logo}
+              width="50"
+              height="50"
+              alt="Open weather cloud"
+            />
+            <h3 className="navbar-header">COVID-19 NEWS</h3>
+          </Navbar.Brand>
+          <Form className="d-flex" style={{ width: '70%' }} onSubmit={(e) => getSearchResult(e)}>
+            <Form.Control
+              type="search"
+              placeholder="ex. London"
+              className="me-2"
+              aria-label="Search"
+              onChange={(e) => onChange(e)}
+            />
+            <Button variant="primary">Search</Button>
+          </Form>
+        </Container>
+      </Navbar>
+    </>
   );
 };
 

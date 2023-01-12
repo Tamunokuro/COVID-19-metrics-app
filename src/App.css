@@ -32,7 +32,29 @@
 
 .data:hover {
   color: black;
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
+}
+
+.country-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding: 1rem;
+}
+
+.country-details:nth-child(even) {
+  background-color: azure;
+}
+
+.utility {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 912px) {
+  .location-data {
+    display: grid;
+    grid-template-columns: 1fr;
+    cursor: pointer;
+    gap: 15px;
+  }
 }

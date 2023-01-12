@@ -55,7 +55,7 @@ const LocationRender = () => {
       {allLocations.length ? (
         <div className="location-data">
           {allLocations.map((location) => (
-            <Link to="/details" key={location.country} className="data" onClick={() => getDetailsData(location.country)}>
+            <Link to={`/details/${location.country}`} key={location.country} className="data" onClick={() => getDetailsData(location.country)}>
               <div className="location__data">
                 <h4>
                   {location.country.toUpperCase()}

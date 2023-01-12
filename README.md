@@ -99,6 +99,7 @@ To get a local copy up and running, follow these steps.
 - NPM
 - React
 - Redux Tool Kit
+- Bootstrap
 
 In order to run this project you need:
 

@@ -5,7 +5,7 @@ import network from '../network.png';
 
 const Utilities = () => (
   <Container className="mt-3">
-    <div className="utility">
+    <div className="utility" style={{ gap: '10px' }}>
       <img
         src={mic}
         alt="Mic"

@@ -85,6 +85,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [COVID-19 Metrics App](https://covid-19-news.onrender.com)
+- [Presentation](https://loom.com/share/196b148779cc483fae2a36e7217daa75)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,5 +1,5 @@
-import { getCountries } from '../../services/location';
 import axios from 'axios';
+import getCountries from '../../services/location';
 
 jest.mock('axios');
 

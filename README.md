@@ -199,7 +199,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Authors <a name="authors"></a>
 

@@ -5,7 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { getLocations, getSpecificLocation } from '../redux/location';
-import Utilities from './Utility';
 import logo from '../autoimmune-disease.png';
 import '../App.css';
 
@@ -28,7 +27,6 @@ const MyNavbar = () => {
 
   return (
     <>
-      <Utilities />
       <Navbar className="nav" style={{ display: 'flex', flexWrap: 'wrap' }}>
         <Container className="navbar">
           <Navbar.Brand style={{ display: 'flex', gap: '10px' }}>

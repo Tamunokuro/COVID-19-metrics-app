@@ -99,6 +99,7 @@ To get a local copy up and running, follow these steps.
 - NPM
 - React
 - Redux Tool Kit
+- Bootstrap
 
 In order to run this project you need:
 
@@ -170,7 +171,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Authors <a name="authors"></a>
 

@@ -1,8 +1,6 @@
 import axios from 'axios';
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-// const LOCATIONS_URL = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5f2d0d92fe7e922ef59b028473994b13`;
-
 export const getLocations = createAsyncThunk('locations/getLocations', () => axios
   .get('https://disease.sh/v3/covid-19/countries')
   .then((response) => response.data));

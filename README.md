@@ -51,11 +51,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 COVID-19 News <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**COVID-19 News** is a single page react application that shows the latest COVID-19 news in all countries around the world. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,20 +67,8 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://redux-toolkit.js.org/">React Tool Kit</a></li>
+    <li><a href="https://react-bootstrap.netlify.app/">React Bootstrap</a></li>
   </ul>
 </details>
 
@@ -90,9 +78,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Search for a specific country**
+- **Get the details for a specific country**
+- **Display all countries data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,16 +103,15 @@ After you're finished please remove all the comments and instructions!
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+- Nodejs
+- NPM
+- React
+- Redux Tool Kit
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Run `npm install`
+- Run `npm start`
 
 ### Setup
 
@@ -196,17 +183,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Tamunokuro](https://github.com/Tamunokuro)
+- Twitter: [tamuno____](https://twitter.com/tamuno____)
+- LinkedIn: [Joshua Blue-Jack](https://linkedin.com/in/joshua-blue-jack)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,9 +197,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Customer Case chat bot**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

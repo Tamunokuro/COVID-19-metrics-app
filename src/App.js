@@ -10,7 +10,7 @@ function App() {
       <MyNavbar />
       <Routes>
         <Route exact path="/" element={<Locations />} />
-        <Route exact path="/details" element={<CountryDetails />} />
+        <Route exact path="/details/:country_name" element={<CountryDetails />} />
       </Routes>
     </BrowserRouter>
   );
